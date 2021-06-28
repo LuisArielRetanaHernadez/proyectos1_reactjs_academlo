@@ -4,9 +4,9 @@ import quotes from '../quotes.json'
 
 const ContainerNotes = () =>{
     const [quote, setQuote] = useState(quotes.citas[101])
+    //funcion que se ejecuta al darle clic al componente Button
     const followingQuote = () =>{
         const indexCitas = Math.floor(Math.random() * quotes.citas.length)
-        console.log(indexCitas)
         setQuote(quotes.citas[indexCitas])
     }
     // console.log(typeof(quote))
