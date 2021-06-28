@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Button from './Button'
 import quotes from '../quotes.json'
 
-const ContainerNotes = ({}) =>{
+const ContainerNotes = () =>{
     const [quote, setQuote] = useState(quotes.citas[101])
     const followingQuote = () =>{
         const indexCitas = Math.floor(Math.random() * quotes.citas.length)
