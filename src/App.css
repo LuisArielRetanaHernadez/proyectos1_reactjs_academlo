@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   height: 49vw;
-  background-color: red;
+  background-color: none;
   display: flex;
   justify-content: center;
   align-items: center;

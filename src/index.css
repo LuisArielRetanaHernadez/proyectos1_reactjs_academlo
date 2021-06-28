@@ -15,20 +15,26 @@ code {
 /**/
 .QuoteBox{
   width: 45%;
-  background-color: chocolate;
-  color: white;
+  background-color: white;
+  color: black;
   border-radius: 20px;
   box-sizing: border-box;
   padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .QuoteBox .container-button{
   width: 100%;
 }
 .btn-quotebox{
   padding: 10px 30px;
-  background-color: rgb(83, 48, 23);
-  color: white;
+  background-color: white;
+  color: black;
   outline: none;
   border: none;
   border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: box-shadow .3s;
+}
+.btn-quotebox:hover{
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
